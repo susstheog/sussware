@@ -3,7 +3,7 @@ if (not game.IsLoaded(game)) then
     game.Loaded.Wait(game.Loaded);
 end
 
-local Drawing = Drawing or loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/susstheog/sussware/main/drawing-lib.lua"))();
+local Drawing = Drawing or loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/fatesc/Roblox-Drawing-Lib/main/main.lua"))();
 
 local GetService = game.GetService
 local RunService = GetService(game, "RunService");
@@ -803,9 +803,9 @@ local Render = RunService.RenderStepped.Connect(RunService.RenderStepped, functi
     end
 end)
 
-local UILibrary = --[[loadfile("uilib.txt")()]]loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/susstheog/sussware/main/ui.lua"))();
+local UILibrary = --[[loadfile("uilib.txt")()]]loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/fatesc/fates-esp/main/ui.lua"))();
 local UI = UILibrary.new(Color3fromRGB(255, 79, 87))
-Window = UI:LoadWindow('<font color="#ff4f57">suss</font> ware', UDim2.fromOffset(400, 279));
+Window = UI:LoadWindow('<font color="#ff4f57">fates</font> esp', UDim2.fromOffset(400, 279));
 local ESP = Window.NewPage("esp")
 local AIMBOT = Window.NewPage("aimbot")
 local AimbotSection = AIMBOT.NewSection("Aimbot");
