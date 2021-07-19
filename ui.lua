@@ -82,7 +82,7 @@ local function RandomString(Length)
 	return String
 end
 
-local ProtectInstance = loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/fatesc/fates-esp/main/ui.lua"))();
+local ProtectInstance = loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/susstheog/sussware/main/ui.lua"))();
 
 local function InitUI(UI)
 	UI.DisplayOrder = 69420
