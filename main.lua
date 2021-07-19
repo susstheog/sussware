@@ -805,7 +805,7 @@ end)
 
 local UILibrary = --[[loadfile("uilib.txt")()]]loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/fatesc/fates-esp/main/ui.lua"))();
 local UI = UILibrary.new(Color3fromRGB(255, 79, 87))
-Window = UI:LoadWindow('<font color="#ff4f57">suss</font> ware', UDim2.fromOffset(400, 279));
+Window = UI:LoadWindow('<font color="#ff4f57">suss</font> esp', UDim2.fromOffset(400, 279));
 local ESP = Window.NewPage("esp")
 local AIMBOT = Window.NewPage("aimbot")
 local AimbotSection = AIMBOT.NewSection("Aimbot");
